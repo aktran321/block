@@ -1,20 +1,31 @@
-// *****************************************************************************
-// Server.js - This file is the initial starting point for the Node/Express server.
-// ******************************************************************************
+// ====================================================
+// DEPENDENCIES
+// ====================================================
+// Express
+const express = require("express");
+const app = express();
+const PORT = process.env.PORT || 8080;
+const db = require("./models");
 
-// Dependencies
-var express = required("express");
-var mysql = required("mysql");
-var exphbs = required("express-handlebars");
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.static("public"));
+// ====================================================
+// Handlebars
+const exphbs = require("express-handlebars");
 
-// Express App
-var app = express();
-var PORT = process.env.PORT || 8080;
-
-
-// Start our server so that it can begin listening to client requests.
-app.listen(PORT, function() {
-    // Log (server-side) when our server has started
-    console.log("Server listening on: http://localhost:" + PORT);
+app.engine("handlebars", exphbs({defaultLayout: "main"}));
+app.set("view engine", "handlebars");
+// ====================================================
+// ROUTES
+// ====================================================
+require("./controllers/classes_controller.js")(app);
+// ====================================================
+// LISTEN
+// ====================================================
+db.sequelize.sync({ force: true }).then(function() {
+  app.listen(PORT, function() {
+    console.log("App listening on: http://localhost:" + PORT);
   });
-  
+});
+// ====================================================
