@@ -22,6 +22,5 @@ CREATE TABLE students
     email VARCHAR NOT NULL,
     password VARCHAR NOT NULL,
     PRIMARY KEY (id)
-
 );
 
