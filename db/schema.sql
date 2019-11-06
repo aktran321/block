@@ -5,13 +5,13 @@ USE class_db;
 
 CREATE TABLE classes
 (
-    id int NOT NULL AUTO_INCREMENT,
-    subject-name VARCHAR(255) NOT NULL,
+    id INT NOT NULL AUTO_INCREMENT,
+    course VARCHAR(255) NOT NULL,
     section INTEGER NOT NULL,
-    start_at TIME,
-    end_at TIME,
-    week_day VARCHAR(10) NOT NULL,
-    credit_hours INT NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    credit INTEGER NOT NULL,
+    time TIME,
+    days VARCHAR (10) NOT NULL,
     PRIMARY KEY (id)
 );
 
