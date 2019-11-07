@@ -21,14 +21,16 @@ module.exports = function(app) {
   });
 
   //ROUTES
+  //============================================================================
   //app.get('/scheduleDisplay', (req, res) => res.render('scheduleDisplay'));
-
   app.get('/scheduleDisplay', function (req, res) {
    
     db.Classes.findAll({
       where: {
         title: {
-          [Op.or]:["AMST201","ARAB 301","DATA 2019","LATN202","PSYC201"]
+          
+          //values in the Op.or need to be determined by the form that the user submits
+          [Op.or]:req.body.subjects
         }
       }
     }).then(function(result) {
@@ -45,6 +47,5 @@ module.exports = function(app) {
   app.get('/userDashboard', (req, res) => res.render('userDashboard'));
   app.get('/classInput', (req, res) => res.render('classInput'));
   app.get('/newUser', (req, res) => res.render('newUser'));
-  
 }
 

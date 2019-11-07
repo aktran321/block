@@ -14,11 +14,11 @@
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <p class="lead">What classes do you need to take this year?</p>
-    <form>
+    <form action="/classInput/add" method="POST">
       <div class="form-group">
         {{!-- <div class="form-group">
           <label for="subject-input"></label>
-          <select class="form-control" id="subject-input">
+          <select value={{subject}}class="form-control" id="subject-input">
             {{#each classes}}
               {{#if classes !== {{@index}} }}
                 <option>{{subject}}</option>
@@ -26,14 +26,15 @@
             {{/each}}
           </select>
           {{#if "subject-input" !== ""}}
-          <label for="course-number-input"></label>
-          <select class="form-control" id="course-number-input">
+          <label for="course-title-input"></label>
+          <select value={{title}}class="form-control" id="course-title-input">
             {{#each classes}} {{#if this.subject}}
-              <option>{{course-number}}</option>
+              <option>{{title}}</option>
             {{/if}} {{/each}}
           </select>
           {{/if}}
         </div> --}}
+        <input type="submit" value="Submit Classes" class="btn btn-reverse">
       </div>
     </form>
   </div>
