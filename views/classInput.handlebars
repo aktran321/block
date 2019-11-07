@@ -11,34 +11,26 @@
   </nav>
 </div>
 
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <p class="lead">What classes do you need to take this year?</p>
-    <form action="/scheduleDisplay/search" method="POST">
-      <div class="form-group">
-        {{!-- <div class="form-group">
-          <label for="subject-input"></label>
-          <select value={{subject}}class="form-control" id="subject-input">
-            {{#each classes}}
-              {{#if classes !== {{@index}} }}
-                <option>{{subject}}</option>
-              {{/if}}
-            {{/each}}
-          </select>
-          {{#if "subject-input" !== ""}}
-          <label for="course-title-input"></label>
-          <select value={{title}}class="form-control" id="course-title-input">
-            {{#each classes}} {{#if this.subject}}
-              <option>{{title}}</option>
-            {{/if}} {{/each}}
-          </select>
-          {{/if}}
-        </div> --}}
-        <input type="submit" value="Submit Classes" class="btn btn-reverse">
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        {{#each classes}}
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          {{subject}}
+        </button>
+        {{/each}}
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body" id="course-title-input">
+        <button class="btn btn-secondary" data-id="{{id}}">Add</button>
       </div>
-    </form>
+    </div>
   </div>
 </div>
+  
 
 <footer class="card-footer text-muted">
   <container>
