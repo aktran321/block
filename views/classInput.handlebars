@@ -1,0 +1,36 @@
+<div class="container navbar-container">
+  <nav class="navbar fixed-top navbar-light bg-light">
+    <a class="navbar-brand" href="index">
+      <img src="/assets/img/block-logos-mini-04.svg" width="30" height="30" class="d-inline-block align-top" alt="mini block logo">
+    </a>
+    <a class="nav-link" href="#">Back<span class="sr-only navbar-text">(current)</span></a>
+  </nav>
+</div>
+
+<div class="jumbotron">
+  <div class="container">
+    <p class="lead">What classes do you need to take this year?</p>
+    <form>
+      <div class="form-group">
+        <div class="form-group">
+          <label for="subject-input"></label>
+          <select class="form-control" id="subject-input">
+            {{#each classes}}
+              {{#if classes !== {{@index}} }}
+                <option>{{subject}}</option>
+              {{/if}}
+            {{/each}}
+          </select>
+          {{#if "subject-input" !== ""}}
+          <label for="course-number-input"></label>
+          <select class="form-control" id="course-number-input">
+            {{#each classes}} {{#if this.subject}}
+              <option>{{course-number}}</option>
+            {{/if}} {{/each}}
+          </select>
+          {{/if}}
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
