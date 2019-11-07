@@ -9,12 +9,12 @@ module.exports = function(sequelize, DataTypes) {
       days: DataTypes.STRING
     });
   
-    Classes.associate = function(models) {
-      // Associating Students with Classes
-      // When a Student is deleted, also delete any associated Classes
-      Classes.belongsTo(models.Students, {
-      });
-    };
+    // Classes.associate = function(models) {
+    //   // Associating Students with Classes
+    //   // When a Student is deleted, also delete any associated Classes
+    //   Classes.belongsTo(models.Students, {
+    //   });
+    // };
   
     return Classes;
   };
