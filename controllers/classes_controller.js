@@ -23,39 +23,47 @@ module.exports = function(app) {
   //ROUTES
   //============================================================================
   //app.get('/scheduleDisplay', (req, res) => res.render('scheduleDisplay'));
-  app.get('/scheduleDisplay', function (req, res) {
-   
+  app.get('/userDashboard', (req, res) => res.render('userDashboard'));
+  app.get('/classInput', (req, res) => res.render('classInput'));
+  app.get('/newUser', (req, res) => res.render('newUser'));
+
+  app.get('/search', (req, res) => {
+
+    //we want all the input information from the classInput form field
+    //and put it into req.body
+    let {title} = req.body;
     db.Classes.findAll({
       where: {
-        title: {
-          
-          //values in the Op.or need to be determined by the form that the user submits
-          [Op.or]:req.body.subjects
+        title:{
+          [Op.or]: req.body
         }
       }
     }).then(function(result) {
       console.log("Hey im in classes_controller and using the findAll method. Here is the result: "+JSON.stringify(result));
-
-      //this just creates an object for all the 
-      var selectedClasses = {
-        classes: result
-      };
-      res.render('/scheduleDisplay', selectedClasses);
+      var selectedClasses = {classes: result};
+      res.render('/scheduleDisplay', selectedClasses)
     });
   });
-
-  app.get('/userDashboard', (req, res) => res.render('userDashboard'));
-  app.get('/classInput', (req, res) => res.render('classInput'));
-  app.get('/newUser', (req, res) => res.render('newUser'));
 //============================================================================
-//POST Route for classInput
-app.post('/add', (req,res) => {
+//WAIT I think everything below here is going to get deleted
+//Get Route for classInput when the user submits their classes
+app.get('/classInput/search', (req,res) => {
+  console.log("This is req.body:" + req.body);
   let {} = req.body;
   let errors =[];
   //============
   //here is space to add validation... but we can to that later
   //============
   //Insert the data from the user into a table
+
+  //now we have to take the values that the user submitted and find
+  //the corresponding data from the tables
 })
+searchQuery = "";
+  app.post('/api/search', function(req, res){
+    //reassign value
+    searchQuery = req.body.course-title-input;
+    res.redirect("/api/get-id/");
+  });
 }
 
