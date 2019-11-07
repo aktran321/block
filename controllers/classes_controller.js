@@ -23,29 +23,27 @@ module.exports = function(app) {
   //ROUTES
   //============================================================================
   //app.get('/scheduleDisplay', (req, res) => res.render('scheduleDisplay'));
-  app.get('/scheduleDisplay', function (req, res) {
-   
+  app.get('/userDashboard', (req, res) => res.render('userDashboard'));
+  app.get('/classInput', (req, res) => res.render('classInput'));
+  app.get('/newUser', (req, res) => res.render('newUser'));
+
+  app.get('/search', (req, res) => {
+
+    //we want all the input information from the classInput form field
+    //and put it into req.body
+    let {title} = req.body;
     db.Classes.findAll({
       where: {
-        title: {
-          
-          //values in the Op.or need to be determined by the form that the user submits
-          [Op.or]:req.body.subjects
+        title:{
+          [Op.or]: req.body
         }
       }
     }).then(function(result) {
       console.log("Hey im in classes_controller and using the findAll method. Here is the result: "+JSON.stringify(result));
-
-      //this just creates an object for all the 
-      var selectedClasses = {
-        classes: result
-      };
-      res.render('/scheduleDisplay', selectedClasses);
+      var selectedClasses = {classes: result};
+      res.render('/scheduleDisplay', selectedClasses)
     });
   });
 
-  app.get('/userDashboard', (req, res) => res.render('userDashboard'));
-  app.get('/classInput', (req, res) => res.render('classInput'));
-  app.get('/newUser', (req, res) => res.render('newUser'));
 }
 
