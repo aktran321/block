@@ -6,7 +6,12 @@ module.exports = function(sequelize, DataTypes) {
     cr: DataTypes.INTEGER,
     start_time: DataTypes.TIME,
     end_time: DataTypes.TIME,
-    days: DataTypes.STRING
+    days: DataTypes.STRING,
+    inSchedule: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: false,
+      allowNull: false
+    }
   });  
 
   AllData.associate = function(models) {
