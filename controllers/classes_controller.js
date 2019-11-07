@@ -25,9 +25,10 @@ module.exports = function(app) {
 
   app.get('/scheduleDisplay', function (req, res) {
    
-    db.Classes.findAll({
+    db.Sections.findAll({
       where: {
         title: {
+          //values in the Op.or need to be determined by the form that the user submits
           [Op.or]:["AMST201","ARAB 301","DATA 2019","LATN202","PSYC201"]
         }
       }
@@ -35,10 +36,10 @@ module.exports = function(app) {
       console.log("Hey im in classes_controller and using the findAll method. Here is the result: "+JSON.stringify(result));
 
       //this just creates an object for all the 
-      var selectedClasses = {
+      var selectedSections = {
         classes: result
       };
-      res.render('/scheduleDisplay', selectedClasses);
+      res.render('/scheduleDisplay', selectedSections);
     });
   });
 
