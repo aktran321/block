@@ -3,6 +3,7 @@ Each of these is a page in public > assets > js.
 Index - ALEX
   * login functionality
     ** see if the user exists and if they do, does their password match, otherwise, give error that username/password does not exist
+    ** build in sequelize validate info.
     ** login button goes to user dashboard
 
 Sign-Up - SANDY
@@ -15,8 +16,21 @@ User Input - ANDY
   ** submit button would go to logic that finds all the possible outcomes of their schedule and posts it to schedule display page.
 
 Schedule Display - JUAN
-  * save function saves their selected schedule to their dashboard for future viewing.
+  * back button
+  ** to return to the user input page
 
-User Dashboard - EMMA
- * details button 
-  ** details button would need to recall the saved schedule from the particular user in order to display it as a modal
+<!-- ===================================================== -->
+
+CONTROLLER (SHOULD BE ONE PERSONS JOB)
+* Index Page 
+  ** POST function to post the users info to check it against our database
+
+* Sign-Up Page
+  ** POST function to post the users info into our database
+
+* User Input Page
+  ** GET function to display information to the user
+  ** POST function to capture users input
+
+* Schedule Display
+  ** GET function to display the results of the logic
