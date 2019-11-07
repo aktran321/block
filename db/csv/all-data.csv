@@ -1,0 +1,519 @@
+subject,number_title,sec,cr,start_time,end_time,day_code,ClassId
+AMST,201-Intro to American Studies,1,3,9:00,9:50,MWF,1
+AMST,201-Intro to American Studies,2,3,10:00,10:50,MWF,1
+ANTH,101-Intro Cultural & Social Anthro,1,3,10:00,10:50,MWF,2
+ANTH,101-Intro Cultural & Social Anthro,3,3,9:30,10:45,TR,2
+ANTH,316-Political Anthropology,1,3,11:00,11:50,MWF,3
+ANTH,321-Anthropology of Food,1,3,9:30,10:45,TR,4
+ANTH,342-Touring Cultures,1,3,11:00,12:15,TR,5
+ANTH,344-Urban Theory & Ethnography,1,3,14:00,3:15,TR,6
+ANTH,350-Amazonian Societies,1,3,12:30,1:45,TR,7
+ANTH,371UU-Immigration in Global Perspect,1,3,14:00,3:15,MW,8
+ANTH,481-Senior Thesis,1,3,14:00,3:15,TR,9
+ARAB,102-Beginning Arabic II,1,3,11:00,11:50,MWF,10
+ARAB,102-Beginning Arabic II,2,3,12:00,12:50,MWF,10
+ARAB,202-Intermediate Arabic II,1,3,9:00,9:50,MWF,11
+ARAB,302-Advanced Arabic,1,3,15:00,3:50,MWF,12
+ARTH,114A-History of Western Art I,1,3,12:30,1:45,TR,13
+ARTH,114A-History of Western Art I,2,3,13:00,1:50,MWF,13
+ARTH,115A-History of Western Art II,1,3,10:00,10:50,MWF,14
+ARTH,115A-History of Western Art II,2,3,11:00,11:50,MWF,14
+ARTH,118-History of Asian Art,1,3,14:00,3:15,TR,15
+ARTH,224-Arts of Japan and Korea,1,3,9:30,10:45,TR,16
+ARTH,303-Methods of Art History,1,3,14:00,2:50,MWF,17
+ARTH,305-Egypt & Near East Art & Archae,1,3,14:00,3:15,TR,18
+ARTH,317-Laboratory in Museum Studies,1,3,9:30,10:45,TR,19
+ARTH,326-Romanesque & Gothic Art,1,3,10:00,10:50,MWF,20
+ARTH,351A-Post Impress to Abstr Express,1,3,13:00,1:50,MWF,21
+ARTH,357-Contemporary Asian Art,1,3,11:00,12:15,TR,22
+ARTH,470A6-Art Hist & Disability Studies,1,3,12:30,1:45,TR,23
+ARTS,104-Digital Approaches to Fine Art,1,3,18:00,7:50,TR,24
+ARTS,104-Digital Approaches to Fine Art,2,3,9:00,10:50,MW,24
+ARTS,105-Design Principles,1,3,9:30,11:15,TR,25
+ARTS,105-Design Principles,2,3,12:30,2:15,TR,25
+ARTS,105-Design Principles,3,3,14:30,4:15,TR,25
+ARTS,105-Design Principles,4,3,9:00,10:50,MW,25
+ARTS,105-Design Principles,5,3,14:00,3:50,MW,25
+ARTS,120-Drawing I,1,3,9:00,11:50,MW,26
+ARTS,120-Drawing I,2,3,9:30,12:15,TR,26
+ARTS,219-Digital Video Production,1,3,9:30,12:15,TR,27
+ARTS,223-Ceramics I,1,3,13:00,3:50,MW,28
+ARTS,231A-Sculpture I,1,3,9:00,11:50,MW,29
+ARTS,241A-Photography I,1,3,14:00,4:45,TR,30
+ARTS,281FF-Special Topics: The Ukelele,1,3,14:00,4:45,TR,31
+ARTS,281GG-Spec Topics: In the Darkroom,1,3,13:00,3:50,MW,32
+ARTS,311A-Ceramics II,1,3,14:00,4:45,TR,33
+ARTS,331B-Sculpture II,1,3,9:30,12:15,TR,34
+ARTS,342-Painting II,1,3,9:30,12:15,TR,35
+ARTS,454-Approaches to Video Art,1,3,13:00,3:50,MW,36
+ARTS,475-Senior Thesis Seminar,1,3,18:00,8:30,W,37
+BIOL,126-Phage Hunters II w/lab,1,4,12:00,1:50,MW,38
+BIOL,127-Human Biology,1,3,15:30,4:45,TR,39
+BIOL,127-Human Biology,2,3,18:00,7:15,MW,39
+BIOL,127-Human Biology,3,3,14:00,3:15,TR,39
+BIOL,127-Human Biology,4,3,9:30,10:45,TR,39
+BIOL,127-Human Biology,5,3,9:30,10:45,TR,39
+BIOL,203-Science in Perspective,1,3,16:00,6:30,T,40
+BIOL,203-Science in Perspective,2,3,16:00,6:30,W,40
+BIOL,210-Intro to Ecology and Evolution,1,3,11:00,12:15,TR,41
+BIOL,210-Intro to Ecology and Evolution,2,3,14:00,3:15,TR,41
+BIOL,210-Intro to Ecology and Evolution,3,3,11:00,11:50,MWF,41
+BIOL,251-History of Biology,1,3,14:00,3:15,TR,42
+BIOL,260-The Research Process,1,3,11:00,11:50,MWF,43
+BIOL,260-The Research Process,2,3,15:00,3:50,MWF,43
+BIOL,260-The Research Process,3,3,10:00,10:50,MWF,43
+BIOL,342-Nutrition and Metabolism,1,3,14:00,3:15,TR,44
+BIOL,442-Evolution,1,3,12:00,12:50,MWF,45
+CHEM,107-Societal Chemistry,1,3,15:30,4:45,TR,46
+CHEM,318-Biochemistry II,1,3,13:00,1:50,MWF,47
+CHEM,331-Environmental Chem,1,3,11:00,12:15,TR,48
+CHEM,343-Inorganic Chem,1,3,13:00,1:50,MWF,49
+CHEM,384A-Physical Chem II,1,3,9:00,9:50,MWF,50
+CHEM,471H-Top: Bioanalytical Chemistry,1,3,10:00,10:50,MWF,51
+CHIN,102-Beginning Chinese II,1,3,11:00,11:50,MWF,52
+CHIN,102-Beginning Chinese II,2,3,12:00,12:50,MWF,52
+CHIN,202-Intermediate Chinese II,1,3,13:00,1:50,MWF,53
+CHIN,300C-Lang & Culture through Media,1,3,18:00,7:15,TR,54
+CLAS,103-Ideas & Culture:Greek Civ,1,3,15:30,4:45,TR,55
+CLAS,103-Ideas & Culture:Greek Civ,2,3,9:30,10:45,TR,55
+CLAS,105-Ideas & Culture:Roman Civ,1,3,14:00,3:15,MW,56
+CLAS,110-Grk &Roman Mythology Art & Lit,1,3,12:30,1:45,TR,57
+CLAS,110-Grk &Roman Mythology Art & Lit,2,3,14:00,3:15,TR,57
+CLAS,202C-Ancient Tragedy,1,3,14:00,3:15,TR,58
+CLAS,305-Egypt & Near East Art & Archae,1,3,14:00,3:15,TR,18
+COMM,205-Public Speaking,1,3,11:00,12:15,TR,59
+COMM,205-Public Speaking,2,3,12:30,1:45,TR,59
+COMM,205-Public Speaking,3,3,10:00,10:50,MWF,59
+COMM,205-Public Speaking,4,3,11:00,11:50,MWF,59
+COMM,205-Public Speaking,6,3,18:45,9:15,T,59
+COMM,206-Small Group Communication,1,3,18:00,8:45,W,60
+COMM,341-Communication Research Methods,1,3,10:00,10:50,MWF,61
+COMM,341-Communication Research Methods,2,3,11:00,11:50,MWF,61
+COMM,341-Communication Research Methods,3,3,14:00,2:50,MWF,61
+COMM,370U-Sports & The Digital,1,3,11:00,12:15,TR,62
+COMM,370U-Sports & The Digital,2,3,12:30,1:45,TR,62
+COMM,460-Seminar in Digital Rhetoric,1,3,9:30,10:45,TR,63
+COMM,460-Seminar in Digital Rhetoric,2,3,11:00,12:15,TR,63
+COMM,460-Seminar in Digital Rhetoric,3,3,14:00,3:15,TR,63
+COMM,460-Seminar in Digital Rhetoric,4,3,18:00,8:45,W,63
+CPRD,104-Meditation Contemplative Pract,1,3,9:00,9:50,MWF,64
+CPRD,304-Contemplative Practice II,1,3,10:00,10:50,MWF,65
+CPSC,110-Intro to Computer Science,3,3,14:00,3:15,TR,66
+CPSC,110-Intro to Computer Science,4,3,15:30,4:45,TR,66
+CPSC,110-Intro to Computer Science,5,3,12:30,1:45,TR,66
+CPSC,110-Intro to Computer Science,6,3,19:00,8:15,MW,66
+CPSC,110-Intro to Computer Science,7,3,18:00,7:15,TR,66
+CPSC,219-Foundations for Data Science,1,3,12:30,1:45,TR,67
+CPSC,302-Computer Ethics,1,3,18:00,8:00,M,68
+CPSC,370DD-Artificial Neural Systems,1,3,18:00,8:45,R,69
+CPSC,414-Network Principles & Applicatn,1,3,11:00,12:15,TR,70
+CPSC,414-Network Principles & Applicatn,2,3,14:00,3:15,TR,70
+CPSC,448-Advanced Web Development,1,3,18:00,8:45,R,71
+DATA,219-Foundations for Data Science,1,3,12:30,1:45,TR,67
+DATA,370DD-Artificial Neural Systems,1,3,18:00,8:45,R,69
+DGST,101-Intro to Digital Studies,1,3,10:00,10:50,MWF,72
+DGST,101-Intro to Digital Studies,2,3,11:00,11:50,MWF,72
+DGST,"201-Tinkering, Hacking & Making",1,3,9:30,10:45,TR,73
+DGST,301C-Digital Media Studio,1,3,18:00,8:45,T,74
+DGST,301E-Virtual and Augmented Reality,1,3,14:00,3:15,TR,75
+DGST,301E-Virtual and Augmented Reality,2,3,15:30,4:45,TR,75
+DGST,395-Applied digital Studies,1,3,18:00,8:45,M,76
+ECON,201B-Princp of Macroeconomics,1,3,9:30,10:45,TR,77
+ECON,201B-Princp of Macroeconomics,2,3,12:00,12:50,MWF,77
+ECON,202B-Princp of Microeconomics,1,3,9:00,9:50,MWF,78
+ECON,202B-Princp of Microeconomics,2,3,12:30,1:45,TR,78
+ECON,202B-Princp of Microeconomics,3,3,14:00,2:50,MWF,78
+ECON,202B-Princp of Microeconomics,4,3,12:00,12:50,MWF,78
+ECON,300-Intro Economic Analysis,1,3,12:00,12:50,MWF,79
+ECON,303-Microeconomics,1,3,14:00,3:15,TR,80
+ECON,304-Macroeconomics,1,3,13:00,1:50,MWF,81
+ECON,331A-Environmental Resource Econ,1,3,14:00,3:15,TR,82
+ECON,351C-Poverty/ Affluence & Equality,1,3,9:30,10:45,TR,83
+ECON,352-Labor Economics,1,3,10:00,10:50,MWF,84
+ECON,374-History of Economic Thought,1,3,12:30,1:45,TR,85
+ECON,382-International Trade,1,3,11:00,12:15,TR,86
+ECON,384-Economic Development,1,3,15:30,4:45,TR,87
+ECON,428-Economics Multinational Corps.,1,3,11:00,11:50,MWF,88
+ECON,462-Advanced Economic Analysis,1,3,9:00,9:50,MWF,89
+ECON,488X-The New Macroeconomics,1,3,10:00,10:50,MWF,90
+ECON,490C-How to Change the World,1,3,15:30,4:45,TR,91
+ECON,490E-Independent Research,1,3,14:00,2:50,T,92
+EESC,210-Oceanography,1,3,9:30,10:45,TR,93
+EESC,221-Environmental Geology,1,3,14:00,2:50,MWF,94
+EESC,307-Environmental Soil Science,1,3,9:30,10:45,TR,95
+EESC,330-Environ Regulations Compliance,1,3,12:30,1:45,TR,96
+EESC,340-Energy Resources & Technology,1,3,12:30,1:45,TR,97
+EESC,421T-Topic: Sustainable Aquaculture,1,3,11:00,12:15,TR,98
+ENGL,200-News Journalism,1,3,18:00,8:45,M,99
+ENGL,200-News Journalism,2,3,15:30,4:45,TR,99
+ENGL,202B-Writing About The Self,1,3,8:00,9:15,TR,100
+ENGL,202D1-Writing about Comedy,1,3,14:00,2:50,MWF,101
+ENGL,2020-Writing about Writing,1,3,9:30,10:45,TR,102
+ENGL,202F1-Writing About Technology,1,3,15:30,4:45,TR,103
+ENGL,202G1-Writing About Conspiracy,1,3,10:00,10:50,MWF,104
+ENGL,202G1-Writing About Conspiracy,2,3,12:00,12:50,MWF,104
+ENGL,202H1-Writing About Fairy Tales,1,3,9:30,10:45,TR,105
+ENGL,202H1-Writing About Fairy Tales,2,3,11:00,12:15,TR,105
+ENGL,205-Art of Literature,1,3,14:00,3:15,TR,106
+ENGL,205-Art of Literature,2,3,15:30,4:45,TR,106
+ENGL,205-Art of Literature,3,3,12:30,1:45,TR,106
+ENGL,205-Art of Literature,4,3,14:00,3:15,TR,106
+ENGL,206A-Global Issues in Literature,1,3,10:00,10:50,MWF,107
+ENGL,206A-Global Issues in Literature,2,3,11:00,11:50,MWF,107
+ENGL,206A-Global Issues in Literature,3,3,13:00,1:50,MWF,107
+ENGL,206A-Global Issues in Literature,4,3,14:00,2:50,MWF,107
+ENGL,206A-Global Issues in Literature,5,3,10:00,10:50,MWF,107
+ENGL,206A-Global Issues in Literature,6,3,11:00,11:50,MWF,107
+ENGL,245-Introduction to Cinema Studies,1,3,18:00,7:15,TR,108
+ENGL,"251HH-Folktale, Myth, and Archetype",1,3,13:00,1:50,MWF,109
+ENGL,251MM-Feminist Science Fiction,1,3,11:00,11:50,MWF,110
+ENGL,251MM-Feminist Science Fiction,2,3,12:00,12:50,MWF,110
+ENGL,251NN-Lit of Death and Purpose,1,3,11:00,11:50,MWF,111
+ENGL,295-Meth of Adv Literary Studies,1,3,10:00,10:50,MWF,112
+ENGL,295-Meth of Adv Literary Studies,2,3,11:00,11:50,MWF,112
+ENGL,295-Meth of Adv Literary Studies,3,3,11:00,12:15,TR,112
+ENGL,295-Meth of Adv Literary Studies,4,3,14:00,3:15,TR,112
+ENGL,300-Investigative Journalism,1,3,11:00,12:15,TR,113
+ENGL,302A-Intro to Creative Writing,1,3,10:00,10:50,MWF,114
+ENGL,302A-Intro to Creative Writing,2,3,11:00,11:50,MWF,114
+ENGL,302A-Intro to Creative Writing,3,3,14:00,2:50,MWF,114
+ENGL,305A-Creative Writing: Fiction,1,3,14:00,3:15,TR,115
+ENGL,310-Courtly Tradition Medieval Lit,1,3,14:00,2:50,MWF,116
+ENGL,312-Creative Writing:Nonfiction,1,3,10:00,10:50,MWF,117
+ENGL,312-Creative Writing:Nonfiction,2,3,11:00,11:50,MWF,117
+ENGL,314-Literary Journal,1,3,12:30,1:45,TR,118
+ENGL,327-Jane Austen,1,3,13:00,1:50,MWF,119
+ENGL,327-Jane Austen,2,3,14:00,2:50,MWF,119
+ENGL,354-African American Lit post-1900,1,3,9:30,10:45,TR,120
+ENGL,357-Southern Literature,1,3,8:00,9:15,TR,121
+ENGL,384-Disability and Literature,1,3,12:30,1:45,TR,122
+ENGL,384-Disability and Literature,2,3,14:00,3:15,TR,122
+ENGL,"390E-Shakespeare, Race, and Gender",1,3,12:30,1:45,TR,123
+ENGL,390F-Sexuality & Origins Modernity,1,3,9:30,10:45,TR,124
+ENGL,391B-Sherlock Holmes and Friends,1,3,12:00,12:50,MWF,125
+ENGL,392A-Great American Novel,1,3,15:30,4:45,TR,126
+ENGL,392B-Environmental Literature,1,3,9:30,10:45,TR,127
+ENGL,393A-Globalization and Literature,2,3,13:00,1:50,MWF,128
+ENGL,393B-Black Women Writers,1,3,12:30,1:45,TR,129
+ENGL,449S-Woolf and Mansfield,1,3,11:00,12:15,TR,130
+ENGL,451B-Reading Lit with Computers,1,3,14:00,2:50,MWF,131
+ENGL,458-American Long Poems,1,3,9:30,10:45,TR,132
+ENGL,470A-Sem:Creative Writing Poetry,1,3,9:30,10:45,TR,133
+ENGL,470C-Creat Writ Sem:Non Fiction,1,3,13:00,1:50,MWF,134
+FREN,101-Beginning French I,1,3,10:00,10:50,MWF,135
+FREN,102-Beginning French II,1,3,12:30,1:45,TR,136
+FREN,102-Beginning French II,2,3,14:00,3:15,TR,136
+FREN,102-Beginning French II,3,3,11:00,11:50,MWF,136
+FREN,201A-Intermediate French I,1,3,13:00,1:50,MWF,137
+FREN,202A-Intermediate French II,1,3,11:00,12:15,TR,138
+FREN,202A-Intermediate French II,2,3,12:30,1:45,TR,138
+FREN,312-Oral Communication & Phonetics,1,3,12:00,12:50,MWF,139
+FREN,312-Oral Communication & Phonetics,2,3,13:00,1:50,MWF,139
+FREN,326-Intro to Pre-Revolutionary Lit,1,3,11:00,12:15,TR,140
+FREN,411-Stylistics,1,3,14:00,2:50,MWF,141
+FREN,481A-Senior Seminar,1,3,15:30,4:45,TR,142
+FSEM,100P1-Life Auditing: Fiscal Fitness,1,3,9:00,9:50,MWF,143
+GEOG,101-World Regional Geography,1,3,11:00,11:50,MWF,144
+GEOG,102-Intro to Human Geography,1,3,15:30,4:45,TR,145
+GEOG,102-Intro to Human Geography,2,3,18:00,8:45,W,145
+GEOG,200D-Geographic Thinking,1,3,9:30,10:45,TR,146
+GEOG,222A-Geog of Westn N America,1,3,12:00,12:50,MWF,147
+GEOG,222A-Geog of Westn N America,2,3,13:00,1:50,MWF,147
+GEOG,237-Cities,1,3,14:00,3:15,TR,148
+GEOG,240-Natural Hazards,1,3,19:00,9:45,R,149
+GEOG,304A-Geography of the Middle East,1,3,12:30,1:45,TR,150
+GEOG,325-Dynamic Climatology,1,3,14:00,3:15,TR,151
+GEOG,331-Race & Place in America,1,3,11:00,12:15,TR,152
+GEOG,338-Geopolitics,1,3,9:30,10:45,TR,153
+GEOG,360E-Grassroots Dev in Guatemala,1,3,18:00,8:45,W,154
+GERM,102-Beginning German II,1,3,9:00,9:50,MWF,155
+GERM,102-Beginning German II,2,3,18:00,7:15,MW,155
+GERM,202A-Intermediate German II,1,3,9:00,9:50,MWF,156
+GERM,202A-Intermediate German II,2,3,11:00,11:50,MWF,156
+GREK,102-Elementary Greek,1,3,9:30,10:45,TR,157
+GREK,202-Intermediate Greek,1,3,12:00,12:50,MWF,158
+HISP,100-Intro to Historic Preservation,1,3,10:00,10:50,MWF,159
+HISP,105-The American Built Environment,1,3,9:00,9:50,MWF,160
+HISP,105-The American Built Environment,2,3,11:00,11:50,MWF,160
+HISP,205-Documentation and Field Work,1,3,14:00,4:45,T,161
+HISP,207-American Archaeology,1,3,12:00,12:50,MWF,162
+HISP,207-American Archaeology,2,3,15:00,3:50,MWF,162
+HISP,209-Planning History & Practice,1,3,11:00,12:15,TR,163
+HISP,209-Planning History & Practice,2,3,14:00,3:15,TR,163
+HISP,305A-Historic Building Technologies,1,3,11:00,11:50,MWF,164
+HISP,305A-Historic Building Technologies,2,3,14:00,2:50,MWF,164
+HISP,313-Museum Education,1,3,13:00,3:45,M,165
+HISP,317-Museum Collections Management,1,3,14:00,4:45,R,166
+HISP,320-Material Culture,1,3,12:30,1:45,TR,167
+HISP,345-Computer Applications in HISP,1,3,11:00,12:15,TR,168
+HISP,463-Lab Museum Design&Interpretatn,1,3,14:00,4:45,T,169
+HISP,469-Lab in Preservation Planning,1,3,14:00,3:15,MW,170
+HISP,471A9-The Preservation Enterprise,1,3,11:00,11:50,MWF,171
+HIST,121-Western Civ I,1,3,14:00,3:15,TR,172
+HIST,121-Western Civ I,2,3,15:30,4:45,TR,172
+HIST,122-Western Civ II,1,3,9:00,9:50,MWF,173
+HIST,131-American History to 1865,1,3,12:00,12:50,MWF,174
+HIST,131-American History to 1865,2,3,13:00,1:50,MWF,174
+HIST,132-Am Hist Since 1865,1,3,14:00,2:50,MWF,175
+HIST,132-Am Hist Since 1865,2,3,15:00,3:50,MWF,175
+HIST,132-Am Hist Since 1865,3,3,18:00,7:15,MW,175
+HIST,142-Asian Civilaztn II,1,3,10:00,10:50,MWF,176
+HIST,190-Gr Lives:Biog Approach to Hist,1,3,19:30,8:45,TR,177
+HIST,297-History Colloquium,1,3,11:00,11:50,MWF,178
+HIST,298-History Practicum,1,3,11:00,11:50,MWF,179
+HIST,298-History Practicum,2,3,13:00,1:50,MWF,179
+HIST,298-History Practicum,3,3,14:00,3:15,TR,179
+HIST,300B7-The Atlantic World,1,3,18:00,7:15,TR,180
+HIST,300ZZ-Intro to Public History,1,3,14:00,2:50,MWF,181
+HIST,305-The American West,1,3,10:00,10:50,MWF,182
+HIST,308-US Labor History,1,3,11:00,11:50,MWF,183
+HIST,314-Afr-Amer History Since Slavery,0,3,12:00,12:50,MWF,184
+HIST,322-US Environmental History,1,3,11:00,11:50,MWF,185
+HIST,338-From Mongols to Ottomans,1,3,11:00,12:15,TR,186
+HIST,339-Modern Middle East History,1,3,8:00,9:15,TR,187
+HIST,354-History of France,1,3,9:30,10:45,TR,188
+HIST,358-History of Russia II,1,3,12:30,1:45,TR,189
+HIST,362-Hist of Latin America,1,3,15:30,4:45,TR,190
+HIST,368-Gender in Chinese History,1,3,12:00,12:50,MWF,191
+HIST,372-European Diplomatic Hist,1,3,9:30,10:45,TR,192
+HIST,385-Arab-Israeli Conflict,1,3,14:00,3:15,TR,193
+HIST,395-US Hist & Popular Culture,1,3,12:00,12:50,MWF,194
+HIST,428-Digital History,1,3,9:30,10:45,TR,195
+HIST,457-History of Conspiracy Theories,1,3,8:00,9:15,TR,196
+HIST,471F3-Medicine & the Body 1400-1800,1,3,12:30,1:45,TR,197
+HIST,471F5-History of Childhood,1,3,9:00,9:50,MWF,198
+HIST,471G2-Hist of American Citizenship,1,3,13:00,1:50,MWF,199
+IDIS,130-Intro to Sports Management,1,3,9:30,10:45,TR,200
+IDIS,130-Intro to Sports Management,2,3,11:00,11:50,MWF,200
+ITAL,102-Beginning Italian II,1,3,14:00,2:50,MWF,201
+ITAL,102-Beginning Italian II,2,3,15:00,3:50,MWF,201
+ITAL,202-Intermediate Italian II,1,3,9:00,9:50,MWF,202
+ITAL,316-Italian Society & Civilization,1,3,11:00,11:50,MWF,203
+LATN,102-Elementary Latin,1,3,11:00,12:15,TR,204
+LATN,102-Elementary Latin,2,3,9:00,9:50,MWF,204
+LATN,102-Elementary Latin,3,3,10:00,10:50,MWF,204
+LATN,202-Intermediate Latin,1,3,9:30,10:45,TR,205
+LATN,202-Intermediate Latin,2,3,11:00,12:15,TR,205
+LATN,358-Ovid,1,3,18:00,7:15,TR,206
+LING,101B-Intro to Linguistics,1,3,9:00,9:50,MWF,207
+LING,101B-Intro to Linguistics,2,3,10:00,10:50,MWF,207
+LING,101B-Intro to Linguistics,3,3,11:00,12:15,TR,207
+LING,101B-Intro to Linguistics,4,3,11:00,12:15,TR,207
+LING,205-Writing Systems of the World,1,3,9:30,10:45,TR,208
+LING,301A-Intro Psycholinguistics,1,3,14:00,3:15,TR,209
+LING,301A-Intro Psycholinguistics,2,3,15:30,4:45,TR,209
+LING,308-Language and Race,1,3,14:00,3:15,TR,210
+LING,309-Introduction to Phonology,1,3,11:00,12:15,TR,211
+LING,470U-Linguistics of Names,1,3,9:30,10:45,TR,212
+MATH,110-Finite Math with Applications,1,3,14:00,3:15,TR,213
+MATH,110-Finite Math with Applications,2,3,15:30,4:45,TR,213
+MATH,110-Finite Math with Applications,3,3,11:00,11:50,MWF,213
+MATH,110-Finite Math with Applications,4,3,18:00,7:15,TR,213
+MATH,111-Precalculus,1,3,9:00,9:50,MWF,214
+MATH,115A-Intr Math Modeling,1,3,9:00,9:50,MWF,215
+MATH,115A-Intr Math Modeling,2,3,10:00,10:50,MWF,215
+MATH,115A-Intr Math Modeling,3,3,9:30,10:45,TR,215
+MATH,115A-Intr Math Modeling,4,3,11:00,12:15,TR,215
+MATH,201-Intro to Discrete Mathematics,1,3,12:00,12:50,MWF,216
+MATH,207-History of Math,1,3,8:00,9:15,TR,217
+MATH,253-Introduction to Cryptography,1,3,9:00,9:50,MWF,218
+MATH,300-Linear Algebra,1,3,13:00,1:50,MWF,219
+MATH,312-Differential Equations,1,3,9:30,10:45,TR,220
+MATH,330-Foundations of Advanced Math,1,3,12:00,12:50,MWF,221
+MATH,361A-Problems in Industry,1,3,9:00,9:50,MWF,222
+MATH,372A-Modern Geometry,1,3,13:00,1:50,MWF,223
+MATH,431-Abstract Algebra,1,3,10:00,10:50,MWF,224
+MATH,432-Abstract Algebra,1,3,12:00,12:50,MWF,225
+MATH,461S-Graph Theory,1,3,8:00,9:15,TR,226
+MATH,471-Real Analysis,1,3,11:00,12:15,TR,227
+MATH,472-Real Analysis,1,3,14:00,2:50,MWF,228
+MATH,481-Theory of Interest,1,3,12:30,1:45,TR,229
+MDFL,201F-Understanding Japan,1,3,13:00,1:50,MWF,230
+MUHL,152-Music and Society,1,3,10:00,10:50,MWF,231
+MUHL,152-Music and Society,2,3,12:00,12:50,MWF,231
+MUHL,156-American Music,1,3,14:00,3:15,TR,232
+MUHL,376-Music Hist II Narratives&Ideol,1,3,10:00,10:50,MWF,233
+MUHL,376-Music Hist II Narratives&Ideol,2,3,10:00,10:50,MWF,233
+MUPR,347A-Choral Conducting,1,3,12:30,1:45,TR,234
+MUSC,473A-SS:Street Choir,1,3,15:30,4:45,TR,235
+MUSC,490-Music Seminar,1,3,9:30,10:45,TR,236
+MUTC,100-Technology for Musicians,1,3,14:00,2:50,MWF,237
+MUTC,100-Technology for Musicians,2,3,15:30,4:45,TR,237
+MUTC,320-Audio Recording,1,3,14:00,3:15,TR,238
+MUTH,181A-Materls & Sources Musi Theory,1,3,13:00,1:50,MWF,239
+MUTH,191-Diatonic Music Theory,1,3,9:00,9:50,MWF,240
+MUTH,391-Post-Tonal Music Theory,1,3,11:00,11:50,MWF,241
+PHIL,101-Intro to Philosophy,1,3,9:00,9:50,MWF,242
+PHIL,110-Intro Law & Legal Writing,1,3,9:00,9:50,MWF,243
+PHIL,151B-Introductory Logic,1,3,15:30,4:45,TR,244
+PHIL,151B-Introductory Logic,3,3,10:00,10:50,MWF,244
+PHIL,202-Early Modern Philosophy,1,3,14:00,2:50,MWF,245
+PHIL,220-Intro to Feminism,1,3,12:30,1:45,TR,246
+PHIL,284-Buddhism,1,3,14:00,3:15,TR,247
+PHIL,301-Medieval Philosophy,1,3,13:00,1:50,MWF,248
+PHIL,307-Philosophy of Language,1,3,13:00,1:50,MWF,249
+PHIL,330-Environmental Ethics,1,3,11:00,11:50,MWF,250
+PHIL,485-Research in Philosophy,1,3,TBA,,TBA,251
+PHYD,330-Events & Facility Mgmt,1,3,10:00,10:50,MWF,252
+PHYS,104-Elementary Astronomy,1,3,18:00,7:15,TR,253
+PHYS,108-General Physics,1,3,14:00,3:15,MW,254
+PHYS,108-General Physics,2,3,9:00,9:50,MWF,254
+PHYS,110-University Physics,1,3,9:00,9:50,MWF,255
+PHYS,110-University Physics,2,3,14:00,2:50,MWF,255
+PSCI,101A-Intro to Political Science,1,3,12:00,12:50,MWF,256
+PSCI,101A-Intro to Political Science,2,3,13:00,1:50,MWF,256
+PSCI,102A-Intro to Internatn'l Relations,1,3,8:00,9:15,TR,257
+PSCI,102A-Intro to Internatn'l Relations,2,3,11:00,12:15,TR,257
+PSCI,102A-Intro to Internatn'l Relations,3,3,10:00,10:50,MWF,257
+PSCI,202A-American Public Policy,1,3,9:00,9:50,MWF,258
+PSCI,312A-The American Presidency,1,3,14:00,2:50,MWF,259
+PSCI,312A-The American Presidency,2,3,10:00,10:50,MWF,259
+PSCI,315-Alliance Politics,1,3,15:30,4:45,TR,260
+PSCI,321A-Theories of Internatnl Relatns,1,3,13:00,1:50,MWF,261
+PSCI,323-Latin American Politics,1,3,11:00,11:50,MWF,262
+PSCI,350B-Politics Developing Countries,1,3,14:00,2:50,MWF,263
+PSCI,351-International Political Econom,1,3,14:00,3:15,TR,264
+PSCI,355-Politics Mid East & N Africa,1,3,10:00,10:50,MWF,265
+PSCI,356-American Foreign Policy,1,3,12:30,1:45,TR,266
+PSCI,356-American Foreign Policy,2,3,14:00,3:15,TR,266
+PSCI,357A-Russian Foreign Policy,1,3,11:00,12:15,TR,267
+PSCI,363-Mass Media Politics,1,3,9:30,10:45,TR,268
+PSCI,367-East Asia in World Affairs,1,3,9:00,9:50,MWF,269
+PSCI,370-Women and Politics,1,3,8:00,8:50,MWF,270
+PSCI,387-Security & Conflict Studies,1,3,9:30,10:45,TR,271
+PSCI,442A-History Political Thought II,1,3,11:00,12:15,TR,272
+PSCI,442A-History Political Thought II,2,3,12:30,1:45,TR,272
+PSCI,471C2-US Constitutional Reform,1,3,8:00,9:15,TR,273
+PSCI,471D4-Intelligence&National Security,1,3,18:00,8:45,R,274
+PSCI,471D6-Contemporary Africa,1,3,15:30,5:45,W,275
+PSYC,100-General Psychology,1,3,10:00,10:50,MWF,276
+PSYC,100-General Psychology,2,3,11:00,11:50,MWF,276
+PSYC,100-General Psychology,3,3,18:00,8:45,M,276
+PSYC,100-General Psychology,4,3,15:30,4:45,TR,276
+PSYC,100-General Psychology,5,3,18:00,7:15,TR,276
+PSYC,201-Social Psychology,1,3,11:00,11:50,MWF,277
+PSYC,201-Social Psychology,2,3,13:00,1:50,MWF,277
+PSYC,211-Abnormal Psychology,1,3,14:00,3:15,MW,278
+PSYC,211-Abnormal Psychology,2,3,11:00,12:15,TR,278
+PSYC,231-Dev Psyc: The Infant and Child,1,3,8:00,9:15,TR,279
+PSYC,231-Dev Psyc: The Infant and Child,2,3,9:30,10:45,TR,279
+PSYC,231-Dev Psyc: The Infant and Child,3,3,12:30,1:45,TR,279
+PSYC,233-Psychology of Aging,1,3,10:00,10:50,MWF,280
+PSYC,233-Psychology of Aging,2,3,11:00,11:50,MWF,280
+PSYC,242-Psychology of Personality,1,3,9:30,10:45,TR,281
+PSYC,253-Fndmntl Learning & Motivation,1,3,11:00,11:50,MWF,282
+PSYC,253-Fndmntl Learning & Motivation,2,3,14:00,3:15,TR,282
+PSYC,261A-Intro Statistics for Psyc,1,3,9:00,9:50,MWF,283
+PSYC,261A-Intro Statistics for Psyc,2,3,10:00,10:50,MWF,283
+PSYC,261A-Intro Statistics for Psyc,3,3,11:00,11:50,MWF,283
+PSYC,273-Cognitive Psychology,1,3,11:00,12:15,TR,284
+PSYC,273-Cognitive Psychology,2,3,12:30,1:45,TR,284
+PSYC,274-Biological Psychology,1,3,9:00,9:50,MWF,285
+PSYC,274-Biological Psychology,2,3,10:00,10:50,MWF,285
+PSYC,305-Cognitive Neuroscience,1,3,18:00,8:45,M,286
+PSYC,315-Foundations of Clinical Psych,1,3,14:00,3:15,TR,287
+PSYC,320-Psyc of Excep Children & Youth,1,3,9:00,9:50,MWF,288
+PSYC,339-Health Psychology,1,3,12:30,1:45,TR,289
+PSYC,346-Forensic Psychology,1,3,9:30,10:45,TR,290
+PSYC,346-Forensic Psychology,2,3,11:00,12:15,TR,290
+PSYC,350-Psychology of Women,1,3,14:00,3:15,TR,291
+PSYC,360A-Advanced Statistics for Psyc,1,3,13:00,1:50,MWF,292
+PSYC,360A-Advanced Statistics for Psyc,2,3,14:00,2:50,MWF,292
+PSYC,360A-Advanced Statistics for Psyc,3,3,12:30,1:45,TR,292
+PSYC,372-Sensation and Perception,1,3,13:00,1:50,MWF,293
+PSYC,372-Sensation and Perception,2,3,14:00,2:50,MWF,293
+PSYC,385-Indust/Organiz Psy,1,3,11:00,11:50,MWF,294
+PSYC,385-Indust/Organiz Psy,2,3,14:00,2:50,MWF,294
+PSYC,387-Organizational Develp & Change,2,3,11:00,12:15,TR,295
+PSYC,394-Psychopharmacology,1,3,9:00,9:50,MWF,296
+PSYC,411-Sem Abnml-Persnlty-Soc Psyc,1,3,9:30,10:45,TR,297
+PSYC,411-Sem Abnml-Persnlty-Soc Psyc,2,3,14:00,3:15,TR,297
+PSYC,412-Resrch Sem in Biol Psych,1,3,11:00,12:15,TR,298
+PSYC,413-Seminar-Cognition or Learning,1,3,12:30,1:45,TR,299
+RELG,101-Intro to World Religions,1,3,11:00,11:50,MWF,300
+RELG,103-The Abrahamic Religions,1,3,9:30,10:45,TR,301
+RELG,208-Christianity After New Testame,1,3,14:00,3:15,MW,302
+RELG,231C3-The Bible & The Quran,1,3,16:00,6:45,W,303
+RELG,231K-SS:Roman Catholicism,1,3,13:00,1:50,MWF,304
+RELG,278-Relg in Amer After Civil War,1,3,14:00,3:15,TR,305
+RELG,284-Buddhism,1,3,14:00,3:15,TR,247
+RELG,331RR-Relg Tolerance/Intoleran in Am,1,3,11:00,12:15,TR,306
+RELG,341B-Major Thinkers: Augustine,1,3,14:00,2:50,MWF,307
+SOCG,105-The Social World,1,3,18:00,8:45,T,308
+SOCG,105-The Social World,2,3,9:30,10:45,TR,308
+SOCG,105-The Social World,3,3,11:00,12:15,TR,308
+SOCG,155-Social Issues,1,3,9:00,9:50,MWF,309
+SOCG,304-Social Stratification,1,3,8:00,9:15,TR,310
+SOCG,304-Social Stratification,2,3,11:00,12:15,TR,310
+SOCG,315A-Gender and Society,1,3,9:30,10:45,TR,311
+SOCG,332-Intro Soc Welfare,1,3,11:00,11:50,MWF,312
+SOCG,352-Criminology,1,3,14:00,3:15,TR,313
+SOCG,371A6-Environmental Criminology,1,3,18:00,8:45,R,314
+SOCG,440-Sociology of Education,1,3,8:00,8:50,MWF,315
+SOCG,440-Sociology of Education,2,3,9:00,9:50,MWF,315
+SOCG,472-Contemp Sociological Theories,1,3,12:00,12:50,MWF,316
+SOCG,472-Contemp Sociological Theories,2,3,13:00,1:50,MWF,316
+SPAN,101-Beginning Spanish I,1,3,14:00,2:50,MWF,317
+SPAN,101-Beginning Spanish I,2,3,15:00,3:50,MWF,317
+SPAN,102-Beginning Spanish II,1,3,8:00,9:15,TR,318
+SPAN,102-Beginning Spanish II,2,3,13:00,1:50,MWF,318
+SPAN,102-Beginning Spanish II,3,3,16:00,5:15,MW,318
+SPAN,102-Beginning Spanish II,4,3,18:00,7:15,MW,318
+SPAN,201A-Intermediate Spanish I,1,3,9:00,9:50,MWF,319
+SPAN,201A-Intermediate Spanish I,2,3,11:00,11:50,MWF,319
+SPAN,201A-Intermediate Spanish I,3,3,8:00,9:15,TR,319
+SPAN,201A-Intermediate Spanish I,4,3,9:30,10:45,TR,319
+SPAN,201A-Intermediate Spanish I,5,3,15:30,4:45,TR,319
+SPAN,201A-Intermediate Spanish I,6,3,18:00,7:15,TR,319
+SPAN,202A-Intermediate Spanish II,1,3,9:30,10:45,TR,320
+SPAN,202A-Intermediate Spanish II,2,3,11:00,12:15,TR,320
+SPAN,202A-Intermediate Spanish II,3,3,9:00,9:50,MWF,320
+SPAN,202A-Intermediate Spanish II,4,3,11:00,11:50,MWF,320
+SPAN,202A-Intermediate Spanish II,5,3,14:00,2:50,MWF,320
+SPAN,202A-Intermediate Spanish II,6,3,15:00,3:50,MWF,320
+SPAN,202A-Intermediate Spanish II,7,3,15:00,3:50,MWF,320
+SPAN,305-Conversation and Grammar,1,3,10:00,10:50,MWF,321
+SPAN,305-Conversation and Grammar,2,3,11:00,11:50,MWF,321
+SPAN,306-Composition and Grammar,1,3,9:30,10:45,TR,322
+SPAN,306-Composition and Grammar,2,3,10:00,10:50,MWF,322
+SPAN,312-Intro to Lit Studies in Span,1,3,12:30,1:45,TR,323
+SPAN,314-Sounds of Spanish:Theory & Pra,1,3,9:30,10:45,TR,324
+SPAN,320J-Latinx Language Discrimination,1,3,12:00,12:50,MWF,325
+SPAN,324A-Intro to Spanish Literature,1,3,13:00,1:50,MWF,326
+SPAN,393-Business Spanish,1,3,13:00,1:50,MWF,327
+SPAN,413-Advanced Writing,1,3,14:00,3:15,TR,328
+SPAN,481L-Galdos & 19th Cent Span Novel,1,3,9:30,10:45,TR,329
+STAT,180-Introduction to Statistics,1,3,8:00,9:15,TR,330
+STAT,180-Introduction to Statistics,2,3,11:00,11:50,MWF,330
+STAT,180-Introduction to Statistics,3,3,12:00,12:50,MWF,330
+STAT,180-Introduction to Statistics,4,3,9:30,10:45,TR,330
+STAT,180-Introduction to Statistics,5,3,11:00,12:15,TR,330
+STAT,180-Introduction to Statistics,6,3,12:30,1:45,TR,330
+STAT,180-Introduction to Statistics,7,3,14:00,3:15,TR,330
+STAT,180-Introduction to Statistics,8,3,12:30,1:45,TR,330
+STAT,180-Introduction to Statistics,9,3,18:00,7:15,TR,330
+STAT,180-Introduction to Statistics,10,3,11:00,12:15,TR,330
+STAT,280-Statistical Methods,1,3,9:30,10:45,TR,331
+STAT,320-Applied Regression Analysis,1,3,14:00,3:15,TR,332
+STAT,382-Probability & Statistical Inf,1,3,11:00,11:50,MWF,333
+THEA,111-Introduction to Theatre,1,3,11:00,12:15,TR,334
+THEA,111-Introduction to Theatre,2,3,10:00,10:50,MWF,334
+THEA,112-Introduction to Acting,1,3,9:00,10:15,MW,335
+THEA,113-Intro Thea Design,1,3,11:00,12:15,TR,336
+THEA,211A-Dramatic Literature,1,3,12:30,1:45,TR,337
+THEA,212A-Dramatic Literature,1,3,14:00,3:15,TR,338
+THEA,271C-Costume Crafts,1,3,15:30,4:45,TR,339
+THEA,290-Scene Painting,1,3,12:30,1:45,TR,340
+THEA,311-Fashion History,1,3,13:00,1:50,MWF,341
+THEA,318-Stage Dialects,1,3,9:30,10:45,TR,342
+THEA,331-Playwriting,1,3,18:00,8:45,T,343
+THEA,336-Musical Theatre Performance,1,3,18:00,8:45,M,344
+THEA,362-Theatre History and Literature,1,3,11:00,12:15,TR,345
+THEA,433-Lighting Design,1,3,9:30,10:45,TR,346
+THEA,435-Ideas in Performance,1,3,18:00,9:45,W,347
+THEA,481-Resource Strategies Arts Admin,1,3,10:00,10:50,MWF,348
+WGST,101-Intro to Women's Studies,1,3,14:00,3:15,TR,349
+WGST,101-Intro to Women's Studies,2,3,15:30,4:45,TR,349
+WGST,102-Prsp in Sexualities:Queer Stu,1,3,18:00,8:45,M,350
+IDIS,350EE-Zen and the Arts,1,3,18:00,8:30,W,351
+RELG,331UU-Zen and the Arts,1,3,18:00,8:30,W,352
