@@ -19,8 +19,7 @@ app.set("view engine", "handlebars");
 // ====================================================
 // ROUTES
 // ====================================================
-require("./controllers/classes_controller.js");
-app.use(routes);
+require("./controllers/classes_controller.js")(app);
 // ====================================================
 // LISTEN
 // ====================================================
@@ -29,3 +28,4 @@ db.sequelize.sync({ force: true }).then(function() {
     console.log("App listening on: http://localhost:" + PORT);
   });
 });
+// ====================================================

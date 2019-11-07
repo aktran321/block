@@ -1,0 +1,47 @@
+<div class="container navbar-container">
+  <nav class="navbar fixed-top navbar-light bg-light">
+    <a class="navbar-brand" href="index">
+      <img src="/assets/img/block-logos-mini-04.svg" width="30" height="30" class="d-inline-block align-top" alt="mini block logo">
+    </a>
+    <a class="nav-link" href="#">
+      <button class="btn btn-secondary">
+        Back<span class="sr-only navbar-text">(current)</span>
+      </button>
+    </a>
+  </nav>
+</div>
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <p class="lead">What classes do you need to take this year?</p>
+    <form action="/scheduleDisplay/search" method="POST">
+      <div class="form-group">
+        {{!-- <div class="form-group">
+          <label for="subject-input"></label>
+          <select value={{subject}}class="form-control" id="subject-input">
+            {{#each classes}}
+              {{#if classes !== {{@index}} }}
+                <option>{{subject}}</option>
+              {{/if}}
+            {{/each}}
+          </select>
+          {{#if "subject-input" !== ""}}
+          <label for="course-title-input"></label>
+          <select value={{title}}class="form-control" id="course-title-input">
+            {{#each classes}} {{#if this.subject}}
+              <option>{{title}}</option>
+            {{/if}} {{/each}}
+          </select>
+          {{/if}}
+        </div> --}}
+        <input type="submit" value="Submit Classes" class="btn btn-reverse">
+      </div>
+    </form>
+  </div>
+</div>
+
+<footer class="card-footer text-muted">
+  <container>
+    Created by: Alex, Andy, Emma, Juan, and Sandy
+  </container>
+</footer>
