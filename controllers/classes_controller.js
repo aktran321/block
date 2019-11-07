@@ -44,6 +44,7 @@ module.exports = function(app) {
       res.render('/scheduleDisplay', selectedClasses)
     });
   });
+<<<<<<< HEAD
 //============================================================================
 //WAIT I think everything below here is going to get deleted
 //Get Route for classInput when the user submits their classes
@@ -65,5 +66,11 @@ searchQuery = "";
     searchQuery = req.body.course-title-input;
     res.redirect("/api/get-id/");
   });
+=======
+
+  app.get('/userDashboard', (req, res) => res.render('userDashboard'));
+  app.get('/classInput', (req, res) => res.render('classInput'));
+  app.get('/newUser', (req, res) => res.render('newUser'));
+>>>>>>> 05aa26863698c0ee64d59d67ba66f6fef3220aa5
 }
 
