@@ -3,7 +3,11 @@
     <a class="navbar-brand" href="#">
       <img src="/assets/img/block-logos-mini-04.svg" width="30" height="30" class="d-inline-block align-top" alt="mini block logo">
     </a>
-    <a class="nav-link" href="#">Back<span class="sr-only navbar-text">(current)</span></a>
+    <a class="nav-link" href="#">
+      <button class="btn btn-secondary">
+        Back<span class="sr-only navbar-text">(current)</span>
+      </button>
+    </a>
   </nav>
 </div>
 
@@ -16,7 +20,7 @@
             <div class="card text-center" style="width: 18rem;">
               <div class="card-body">
                 <h5 class="card-title">Special title treatment</h5>
-                <a href="{{saved-schedule}}" class="btn btn-secondary">Details</a>
+                {{!-- <a href="{{saved-schedule}}" class="btn btn-secondary">Details</a> --}}
               </div>
             </div>
           </div>
@@ -34,3 +38,9 @@
     <button type="save" id="save-button" class="btn btn-secondary">Save</button>
   </div>
 </div>
+
+<footer class="card-footer text-muted">
+  <container>
+    Created by: Alex, Andy, Emma, Juan, and Sandy
+  </container>
+</footer>

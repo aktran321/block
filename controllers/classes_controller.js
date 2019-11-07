@@ -1,4 +1,8 @@
+// ====================================================
+// DEPENDENCIES
+// ====================================================
 const db = require("../models");
+
 const express = require("express");
 const router = express.Router();
 const Sequelize = require("sequelize");
@@ -22,5 +26,5 @@ module.exports = function(app) {
   app.get('/classInput', (req, res) => res.render('classInput'));
   app.get('/newUser', (req, res) => res.render('newUser'));
 
-
 }
+

@@ -3,17 +3,21 @@
     <a class="navbar-brand" href="#">
       <img src="/assets/img/block-logos-mini-04.svg" width="30" height="30" class="d-inline-block align-top" alt="mini block logo">
     </a>
-    <a class="nav-link" href="#">Back<span class="sr-only navbar-text">(current)</span></a>
+    <a class="nav-link" href="#">
+      <button class="btn btn-secondary">
+        Back<span class="sr-only navbar-text">(current)</span>
+      </button>
+    </a>
   </nav>
 </div>
 
-<div class="jumbotron">
-  <div class="container">
+{{!-- <div class="jumbotron">
+  <div class="container"> --}}
     <div class="timetable-display">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item">
-            {{timetable-element}}
+            {{!-- {{timetable-element}} --}}
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -27,5 +31,11 @@
       </div>
     </div>
     <button type="save" id="save-button" class="btn btn-secondary">Save</button>
-  </div>
-</div>
+  {{!-- </div>
+</div> --}}
+
+<footer class="card-footer text-muted">
+  <container>
+    Created by: Alex, Andy, Emma, Juan, and Sandy
+  </container>
+</footer>
