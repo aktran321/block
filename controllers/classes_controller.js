@@ -2,9 +2,12 @@
 // DEPENDENCIES
 // ====================================================
 const db = require("../models");
-// ====================================================
-// ROUTES (GET ONLY)
-// ====================================================
+
+const express = require("express");
+const router = express.Router();
+const Sequelize = require("sequelize");
+const Op = Sequelize.Op;
+
 module.exports = function(app) {
   app.get("/", function(req, res) {
     db.Classes.findAll({}).then(function(result) {
@@ -17,48 +20,11 @@ module.exports = function(app) {
     });
   });
 
-  app.get("/class-input", function(req, res) {
-    db.Classes.findAll({}).then(function(result) {
-      var classData = {
-        classes: result
-      };
-      res.render("classInput", classData);
-    }).catch(function(err) {
-      res.json(400,err);
-    });
-  });
+  //ROUTES
+  app.get('/scheduleDisplay', (req, res) => res.render('scheduleDisplay'));
+  app.get('/userDashboard', (req, res) => res.render('userDashboard'));
+  app.get('/classInput', (req, res) => res.render('classInput'));
+  app.get('/newUser', (req, res) => res.render('newUser'));
 
-  app.get("/new-user", function(req, res) {
-    db.Classes.findAll({}).then(function(result) {
-      var classData = {
-        classes: result
-      };
-      res.render("newUser", classData);
-    }).catch(function(err) {
-      res.json(400,err);
-    });
-  });
+}
 
-  app.get("/schedule-display", function(req, res) {
-    db.Classes.findAll({}).then(function(result) {
-      var classData = {
-        classes: result
-      };
-      res.render("scheduleDisplay", classData);
-    }).catch(function(err) {
-      res.json(400,err);
-    });
-  });
-
-  app.get("/user-dashboard", function(req, res) {
-    db.Classes.findAll({}).then(function(result) {
-      var classData = {
-        classes: result
-      };
-      res.render("userDashboard", classData);
-    }).catch(function(err) {
-      res.json(400,err);
-    });
-  });
-
-};
