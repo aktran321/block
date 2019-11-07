@@ -21,31 +21,41 @@ module.exports = function(app) {
   });
 
   //ROUTES
+  //============================================================================
   //app.get('/scheduleDisplay', (req, res) => res.render('scheduleDisplay'));
-
   app.get('/scheduleDisplay', function (req, res) {
    
-    db.Sections.findAll({
+    db.Classes.findAll({
       where: {
         title: {
+          
           //values in the Op.or need to be determined by the form that the user submits
-          [Op.or]:["AMST201","ARAB 301","DATA 2019","LATN202","PSYC201"]
+          [Op.or]:req.body.subjects
         }
       }
     }).then(function(result) {
       console.log("Hey im in classes_controller and using the findAll method. Here is the result: "+JSON.stringify(result));
 
       //this just creates an object for all the 
-      var selectedSections = {
+      var selectedClasses = {
         classes: result
       };
-      res.render('/scheduleDisplay', selectedSections);
+      res.render('/scheduleDisplay', selectedClasses);
     });
   });
 
   app.get('/userDashboard', (req, res) => res.render('userDashboard'));
   app.get('/classInput', (req, res) => res.render('classInput'));
   app.get('/newUser', (req, res) => res.render('newUser'));
-
+//============================================================================
+//POST Route for classInput
+app.post('/add', (req,res) => {
+  let {} = req.body;
+  let errors =[];
+  //============
+  //here is space to add validation... but we can to that later
+  //============
+  //Insert the data from the user into a table
+})
 }
 
