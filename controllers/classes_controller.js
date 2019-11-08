@@ -48,6 +48,22 @@ module.exports = function(app) {
     });
   });
 
+  //route associated with the ajax call for classInput
+  app.get("/api/classes", function(req, res){
+    const title = req.query.title
+    db.Classes.findAll({
+      where: {
+        title
+      }
+    }).then(function(dbClass){
+      if(dbClass != null){
+        res.redirect("/scheduleDisplay")
+      } else {
+        console.log("Error: Classes not found")
+      }
+    })
+  })
+
 //============================================================================
 //WAIT I think everything below here is going to get deleted
 //Get Route for classInput when the user submits their classes
