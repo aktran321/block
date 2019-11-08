@@ -23,7 +23,7 @@
     <!--This div container needs to get populated with timetable divs 
         also with unique ID's-->
         {{#each}}
-        <div id = someVariableHere class="timetable"></div>
+        <div id = "timetable1" class="timetable"></div>
         {{/each}}
     <div id = "timetable1" class="timetable"></div>
     <div id = "timetable2" class="timetable"></div>
@@ -31,8 +31,14 @@
 
 <script src="scripts/timetable.js"></script>
 <script>
-    var timetable = new Timetable();
-    timetable.setScope(9,8);
-    timetable.addLocations(['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']);
+    var timetable1 = new Timetable();
+    timetable1.setScope(9,8);
+    timetable1.addLocations(['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']);
+
+    //We need to do an add event for EVERY BLOCK of time
+    //So sections WILL have MULTIPLE blocks of times.
+    //We may have to re-configure our data so that there is a unique
+    //data point for every 50 min class period
+    timetable.addEvent("ClassName", "Day", "start", "end");
 
 </script>
