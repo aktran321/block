@@ -29,9 +29,9 @@ module.exports = function(app) {
   app.get('/userDashboard', (req, res) => res.render('userDashboard'));
   app.get('/classInput', (req, res) => res.render('classInput'));
   app.get('/newUser', (req, res) => res.render('newUser'));
-
+//=========================================================================
+//Probably deleting this section
   app.get('/search', (req, res) => {
-
     //we want all the input information from the classInput form field
     //and put it into req.body
     let {title} = req.body;
@@ -47,43 +47,28 @@ module.exports = function(app) {
       res.render('/scheduleDisplay', selectedClasses)
     });
   });
-
+//============================================================================
   //route associated with the ajax call for classInput
   app.get("/api/classes", function(req, res){
-    const title = req.query.title
+    //const title = req.query.title
     db.Classes.findAll({
       where: {
-        title
+        title: {
+          [Op.or]:req.body
+        }
       }
-    }).then(function(dbClass){
-      if(dbClass != null){
-        res.redirect("/scheduleDisplay")
+    }).then(function(result){
+      if(result != null){
+        //res.redirect("/scheduleDisplay")
+        var selectedClasses = {classes: result};
+        res.render('/scheduleDisplay', selectedClasses)
       } else {
         console.log("Error: Classes not found")
       }
-    })
-  })
+    });
+  });
 
 //============================================================================
-//WAIT I think everything below here is going to get deleted
-//Get Route for classInput when the user submits their classes
-app.get('/classInput/search', (req,res) => {
-  console.log("This is req.body:" + req.body);
-  let {} = req.body;
-  let errors =[];
-  //============
-  //here is space to add validation... but we can to that later
-  //============
-  //Insert the data from the user into a table
 
-  //now we have to take the values that the user submitted and find
-  //the corresponding data from the tables
-});
-searchQuery = "";
-  app.post('/api/search', function(req, res){
-    //reassign value
-    searchQuery = req.body.course-title-input;
-    res.redirect("/api/get-id/");
-  });
 };
 
