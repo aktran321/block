@@ -3,25 +3,7 @@
 // ====================================================
 const db = require("../models");
 
-const express = require("express");
-const router = express.Router();
-const Sequelize = require("sequelize");
-const Op = Sequelize.Op;
-
-
 module.exports = function(app) {
-  //
-  // app.get("/", function(req, res) {
-  //   db.Classes.findAll({}).then(function(result) {
-  //     var classData = {
-  //       classes: result
-  //     };
-  //     res.render("index", classData);
-  //   }).catch(function(err) {
-  //    res.json(400,err);
-  //   });
-  // });
-
   //ROUTES
   //============================================================================
   //app.get('/scheduleDisplay', (req, res) => res.render('scheduleDisplay'));
@@ -50,21 +32,21 @@ module.exports = function(app) {
 
 // *** TESTING CLASS INPUT **** //
 
-app.get("/classInput/:classID", function(req, res) {
-  let subject = req.params.classID;
-  console.log(subject);
-  db.Classes.findAll({
-    where: subject
-  }).then(function(result) {
-    console.log(result);
-    var subjectData = {
-      classes: result
-    };
-    res.render("classInput", subjectData);
-  }).catch(function(err) {
-    res.status(400).json(err);
-  });
-});
+// app.get("/classInput/:classID", function(req, res) {
+//   let subject = req.params.classID;
+//   console.log(subject);
+//   db.Classes.findAll({
+//     where: subject
+//   }).then(function(result) {
+//     console.log(result);
+//     var subjectData = {
+//       classes: result
+//     };
+//     res.render("classInput", subjectData);
+//   }).catch(function(err) {
+//     res.status(400).json(err);
+//   });
+// });
 
 
 
