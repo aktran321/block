@@ -27,7 +27,7 @@ module.exports = function(app) {
   //app.get('/scheduleDisplay', (req, res) => res.render('scheduleDisplay'));
   app.get("/",(req,res) => res.render('index'));
   app.get('/userDashboard', (req, res) => res.render('userDashboard'));
-  app.get('/classInput', (req, res) => res.render('classInput'));
+  // app.get('/classInput', (req, res) => res.render('classInput'));
   app.get('/newUser', (req, res) => res.render('newUser'));
 
   app.get('/search', (req, res) => {
@@ -47,6 +47,26 @@ module.exports = function(app) {
       res.render('/scheduleDisplay', selectedClasses)
     });
   });
+
+// *** TESTING CLASS INPUT **** //
+
+app.get("/classInput/:classID", function(req, res) {
+  let subject = req.params.classID;
+  console.log(subject);
+  db.Classes.findAll({
+    where: subject
+  }).then(function(result) {
+    console.log(result);
+    var subjectData = {
+      classes: result
+    };
+    res.render("classInput", subjectData);
+  }).catch(function(err) {
+    res.status(400).json(err);
+  });
+});
+
+
 
 //============================================================================
 //WAIT I think everything below here is going to get deleted
@@ -70,4 +90,7 @@ searchQuery = "";
     res.redirect("/api/get-id/");
   });
 };
+
+
+
 
