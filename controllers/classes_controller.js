@@ -29,6 +29,7 @@ module.exports = function(app) {
   app.get('/userDashboard', (req, res) => res.render('userDashboard'));
   app.get('/classInput', (req, res) => res.render('classInput'));
   app.get('/newUser', (req, res) => res.render('newUser'));
+  app.get('/scheduleDisplay', (req, res) => res.render('scheduleDisplay'));
 //=========================================================================
 //Probably deleting this section
   app.get('/search', (req, res) => {
