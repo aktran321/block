@@ -71,3 +71,22 @@ searchQuery = "";
   });
 };
 
+
+
+// -----------------------
+// LOGIN CHECK HERE
+app.get('/students/search', (req,res) => {
+  console.log("This is req.body:" + req.body);
+  let input = req.body;
+  let errors =[];
+  db.Students.count({ where: { email: input.email,password:input.password } })
+  .then(function(result) {
+    console.log("Hey im in classes_controller and using the findAll method. Here is the result: "+JSON.stringify(result));
+    var studentCount = {studentCount: result};
+    res.render('/index', studentCount)
+  });
+
+});
+
+
+// -----------------------
