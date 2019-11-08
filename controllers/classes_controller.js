@@ -8,21 +8,24 @@ const router = express.Router();
 const Sequelize = require("sequelize");
 const Op = Sequelize.Op;
 
+
 module.exports = function(app) {
-  app.get("/", function(req, res) {
-    db.Classes.findAll({}).then(function(result) {
-      var classData = {
-        classes: result
-      };
-      res.render("index", classData);
-    }).catch(function(err) {
-      res.json(400,err);
-    });
-  });
+  //
+  // app.get("/", function(req, res) {
+  //   db.Classes.findAll({}).then(function(result) {
+  //     var classData = {
+  //       classes: result
+  //     };
+  //     res.render("index", classData);
+  //   }).catch(function(err) {
+  //    res.json(400,err);
+  //   });
+  // });
 
   //ROUTES
   //============================================================================
   //app.get('/scheduleDisplay', (req, res) => res.render('scheduleDisplay'));
+  app.get("/",(req,res) => res.render('index'));
   app.get('/userDashboard', (req, res) => res.render('userDashboard'));
   app.get('/classInput', (req, res) => res.render('classInput'));
   app.get('/newUser', (req, res) => res.render('newUser'));
@@ -59,17 +62,12 @@ app.get('/classInput/search', (req,res) => {
 
   //now we have to take the values that the user submitted and find
   //the corresponding data from the tables
-})
+});
 searchQuery = "";
   app.post('/api/search', function(req, res){
     //reassign value
     searchQuery = req.body.course-title-input;
     res.redirect("/api/get-id/");
   });
-
-
-  app.get('/userDashboard', (req, res) => res.render('userDashboard'));
-  app.get('/classInput', (req, res) => res.render('classInput'));
-  app.get('/newUser', (req, res) => res.render('newUser'));
-}
+};
 
